@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/2tree-D/2tree-D.github.io.git
 	branch = main
+[submodule "themes/stack"]
+	path = themes/stack
+	url = https://github.com/2tree-D/hugo-theme-stack.git
