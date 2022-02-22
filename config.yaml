@@ -1,4 +1,4 @@
-baseURL: "https://2tree-D.github.io.git"
+baseURL: "https://2tree-D.github.io"
 languageCode: en-us
 theme: stack
 paginate: 5
