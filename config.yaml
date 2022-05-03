@@ -12,7 +12,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
-DefaultContentLanguage: en
+DefaultContentLanguage: ko
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -38,12 +38,12 @@ params:
     lastUpdated: Jan 02, 2006 15:04 MST
 
   sidebar:
-    emoji: 🍥
+    emoji:
     subtitle: 비전공자의 개발 공부
     avatar:
       enabled: true
       local: true
-      src: img/avatar.png
+      src: img/tree.jpg
 
   article:
     math: false
@@ -177,17 +177,30 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /
-      weight: -100
+      url: /home/
+      weight: -200
       params:
-        ### For demonstration purpose, the home link will be open in a new tab
         newTab: true
         icon: home
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: -100
+      params:
+        newTab: true
+        icon: search
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 0
+      params:
+        newTab: true
+        icon: archives
 
   social:
     - identifier: github
       name: GitHub
-      url: https://github.com/CaiJimmy/hugo-theme-stack
+      url: https://github.com/2tree-D
       params:
         icon: brand-github
 
